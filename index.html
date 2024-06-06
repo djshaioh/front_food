@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>푸드 페이지</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>푸드 페이지</h1>
+            <nav>
+                <ul>
+                    <li><a href="#favorites">좋아하는</a></li>
+                    <li><a href="#dislikes">좋아하지 않는</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="favorites">
+        <div class="container">
+            <h2>좋아하는</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="img/food2.jpg" alt="Food 1">
+                    <h3>마라탕</h3>
+                    <p>마라의 얼얼함과 골라먹는 재미</p>
+                </div>
+                <div class="card">
+                    <img src="img/food3.jpg" alt="Food 2">
+                    <h3>부대찌개</h3>
+                    <p>광운대 근처 이층집, 본가 근처 삼거리부대찌개</p>
+                </div>
+                <div class="card">
+                    <img src="img/food1.jpg" alt="Food 3">
+                    <h3>칼국수</h3>
+                    <p>본가 근처 닭칼국수, 뼈칼국수</p>
+                </div>
+                <div class="card">
+                    <img src="img/food4.jpg" alt="Food 4">
+                    <h3>돈까스</h3>
+                    <p>본가 근처 닭칼국수, 뼈칼국수</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dislikes">
+        <div class="container">
+            <h2>좋아하지 않는</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="img/food5.png" alt="Food 5">
+                    <h3>초밥/회</h3>
+                    <p>생선 종류를 원래 좋아하지 않음</p>
+                </div>
+                <div class="card">
+                    <img src="img/food6.png" alt="Food 6">
+                    <h3>삶은계란</h3>
+                    <p>특유의 비린맛을 선호하지 않음</p>
+                </div>
+                <div class="card">
+                    <img src="img/food7.jpg" alt="Food 7">
+                    <h3>갑각류</h3>
+                    <p>발라먹는 걸 좋아하지 않음</p>
+                </div>
+                <div class="card">
+                    <img src="img/food8.png" alt="Food 8">
+                    <h3>추어탕</h3>
+                    <p>생선 종류를 원래 좋아하지 않음</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="../../main/index.html" class="back">
+        <button id="backButton">돌아가기</button>
+    </a>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 푸드 페이지</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
